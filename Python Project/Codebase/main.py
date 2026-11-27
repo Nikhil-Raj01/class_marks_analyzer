@@ -30,7 +30,7 @@ def analyze_marks(marks):
     median = np.median(marks)
     highest = np.max(marks)
     lowest = np.min(marks)
-    std_dev = np.std(marks)  # Population standard deviation (NumPy default)
+    std_dev = np.std(marks)  
 
     passed = np.sum(marks >= PASS_MARK)
     failed = len(marks) - passed
